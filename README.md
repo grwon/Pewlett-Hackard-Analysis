@@ -33,7 +33,7 @@ Purpose of this analysis is to determine the number of retiring employees per ti
 ### Mentorship Eligibility
 - The Mentorship Eligibility table shows all the current employees who are born between January 1, 1965 and December 31, 1965.
 
-![Mentorship_Eligibility](https://github.com/grwon/Pewlett-Hackard-Analysis/blob/master/Resources/retiring_titles.png)   
+![Mentorship_Eligibility](https://github.com/grwon/Pewlett-Hackard-Analysis/blob/master/Resources/mentorship_eligibility.png)   
 
 ### Summary
 - How many roles will need to be filled as the "silver tsunami" begins to make an impact?
@@ -50,4 +50,4 @@ Purpose of this analysis is to determine the number of retiring employees per ti
 - Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
     - From the Mentorship Eligibility table and the below image, we determined the total count of employees eligible to participate in a mentorship program to be 1,549. When we compared the count of qualified, retirement-ready employees in Retiring Titles table to next generation of Pewlett Hackard employees in the below image. We have enough qualified employees to mentor the next generation of employees, as we only need about 2 to 4 % of experienced employees to mentor the new employees.
 
-![Mentorship_Titles](https://github.com/grwon/Pewlett-Hackard-Analysis/blob/master/Resources/retiring_titles.png)
+![Mentorship_Titles](https://github.com/grwon/Pewlett-Hackard-Analysis/blob/master/Resources/mentorship_titles.png)
