@@ -45,6 +45,14 @@ INNER JOIN dept_emp AS de
 ON (e.emp_no = de.emp_no)
 INNER JOIN titles AS ti
 ON (de.emp_no = ti.emp_no)
-WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
-	AND (ti.to_date = '9999-01-01')
-ORDER BY e.emp_no; 
+	WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
+		AND (de.to_date = '9999-01-01')
+ORDER BY e.emp_no;
+
+-- Deliverable 2 - Count number of unique titles for employees eligible to participate in a mentorship program
+SELECT COUNT(me.title), me.title
+
+--INTO mentorship_titles
+FROM mentorship_eligibility as me
+GROUP BY me.title
+ORDER BY COUNT(me.title) DESC;
